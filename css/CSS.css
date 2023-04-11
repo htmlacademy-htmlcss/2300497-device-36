@@ -260,9 +260,36 @@ input {
   background-color: #ffe17f;
   width: 160px;
   height: 160px;
-  background-image: url(../images/vectors/VR.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.virtual {
+  background-image: url(../images/vectors/VR.svg);
+}
+
+.monopad {
+  background-image: url(../images/vectors/monopad.svg);
+}
+
+.camera {
+  background-image: url(../images/vectors/camera.svg);
+}
+
+.fitness {
+  background-image: url(../images/vectors/fitness.svg);
+}
+
+.smart {
+  background-image: url(../images/vectors/smart.svg);
+}
+
+.kvadro {
+  background-image: url(../images/vectors/kvadro.svg);
+}
+
+.delivery-back {
+  margin: 0;
 }
 
 .delivery {
@@ -276,6 +303,58 @@ input {
 
 .services {
   list-style-type: none;
+  align-self: center;
+}
+
+.services-buttons {
+  border: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.delivery-button-back {
+  background-image: url(../images/vectors/delivery-line.svg);
+  width: 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delivery-button-back:hover {
+  color: #ffe17f;
+  background-color: #000000;
+  background-image: none;
+}
+
+.garantee-button-back {
+  background-image: url(../images/vectors/delivery-line.svg);
+  width: 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.garantee-button-back:hover {
+  color: #ffe17f;
+  background-color: #000000;
+  background-image: none;
+}
+
+.loan-button-back {
+  background-image: url(../images/vectors/delivery-line.svg);
+  width: 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.loan-button-back:hover {
+  color: #ffe17f;
+  background-color: #000000;
+  background-image: none;
 }
 
 .description {
@@ -356,6 +435,7 @@ input {
 
 .footer-page {
   background-color: #444444;
+  margin: 0;
 }
 
 .device-logo-pic {
