@@ -62,11 +62,22 @@ html {
   line-height: 30px;
 }
 
+.catalog-menu {
+  background-color: #ffe17f;
+  border: none;
+}
+
+.catalog-menu:hover {
+  color: #484444;
+}
+
 .fat-links {
+  position: relative;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
+  z-index: 1;
 }
 
 .fat-links:not(:last-child) {
@@ -157,8 +168,8 @@ input {
 
 .kadoves label {
   display: inline-block;
-  width: 7px;
-  height: 7px;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
   margin: 0 2px;
   border-radius: 55%;
@@ -228,6 +239,18 @@ input {
 
 .card-properties {
   display: flex;
+}
+
+.determ-l:not(:last-child) {
+  margin-right: 20px;
+}
+
+.determ-t {
+  text-align:center ;
+}
+
+.determ-d {
+  margin: 0;
 }
 
 .long {
@@ -370,6 +393,16 @@ input {
   background-image: none;
 }
 
+.vertical-line {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/vectors/verttical-line-delivery.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 7px;
+  height: 319px;
+}
+
 .description {
   width: 694px;
   margin: 73px 63px 73px 116px;
@@ -415,13 +448,27 @@ input {
   width: 1160px;
 }
 
+.info-line {
+  width: 84px;
+  height: 7px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/vectors/info-line.svg);
+  background-repeat: no-repeat;
+
+}
+
 .about-us {
   margin-right: 108px;
 }
 
 .tel {
   text-decoration: none;
-  color: #f0f0f0;
+  color: #000000;
+}
+
+.tel:hover {
+  color: #1d1c1c;
 }
 
 .mail {
