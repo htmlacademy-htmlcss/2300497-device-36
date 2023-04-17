@@ -149,9 +149,9 @@ input {
 
 .adaptivSlayder {
   position: relative;
-  max-width: 710px;
-  margin: 65px auto;
+  max-width: 1160px;
   margin-top: -100px;
+  margin-left: 5px;
 }
 
 .adaptivSlayder input[name="kadoves"] {
@@ -162,7 +162,7 @@ input {
   position: absolute;
   left: 0;
   bottom: -35px;
-  text-align: right;
+  text-align: center;
   width: 100%;
 }
 
@@ -196,7 +196,7 @@ input {
 
 .abusteku-deagulus {
   display: flex;
-  width: 560px;
+  width: 1160px;
   transition: all 0.6s;
 }
 
@@ -214,6 +214,10 @@ input {
 
 #slaid3:checked ~ .photo-main .adaptivSlayderlasekun .abusteku-deagulus {
   transform: translateX(-200%);
+}
+
+.general-slayder {
+  display: flex;
 }
 
 .more-info-button {
@@ -235,6 +239,12 @@ input {
 .photo-description {
   width: 560px;
   height: 401px;
+  align-self: center;
+  margin-left: 20px;
+}
+
+.photo-description:first-child {
+  margin-left: 50px;
 }
 
 .card-properties {
