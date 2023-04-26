@@ -638,7 +638,7 @@ input {
 }
 
 .catalog-page {
-  width: 1060px;
+  width: 1160px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -672,12 +672,58 @@ input {
 
 .catalog-cards {
   width: 840px;
+  background-color: #ffffff;
 }
 
 .catalog-cards-items {
   display: grid;
   grid-template-areas: " first second"
                         "third fourth";
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 40px;
+  row-gap: 40px;
+  width: 760px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.first {
+  grid-area: first;
+}
+
+.second {
+  grid-area: second;
+}
+
+.third {
+  grid-area: third;
+}
+
+.fourth {
+  grid-area: fourth;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+}
+
+.load-more-button {
+  align-items: center;
+  padding: 18px 39px;
+  width: 760px;
+  height: 55px;
+  border: 3px solid #e5e5e5;
+  background-color: #ffffff;
 }
 
 /*--------------------------------------------*/
