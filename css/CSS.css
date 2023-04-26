@@ -634,7 +634,6 @@ input {
 
 .catalog-page-back {
   background-color: #f0f0f0;
-  width: 1440px;
   margin: 0;
 }
 
@@ -644,6 +643,14 @@ input {
   margin-right: auto;
 }
 
+.filters-settings {
+  width: 320px;
+}
+
+.catalog-filters-cards {
+  display: flex;
+}
+
 .catalog-page-list {
   display: flex;
   flex-wrap: wrap;
@@ -651,6 +658,26 @@ input {
 
 .catalog-list {
   display: flex;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+}
+
+.bluetooth {
+  display: flex;
+  align-items: center;
+}
+
+.catalog-cards {
+  width: 840px;
+}
+
+.catalog-cards-items {
+  display: grid;
+  grid-template-areas: " first second"
+                        "third fourth";
 }
 
 /*--------------------------------------------*/
