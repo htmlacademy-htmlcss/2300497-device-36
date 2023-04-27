@@ -512,8 +512,9 @@ input {
 
 .description-rare {
   background-color: #f0f0f0;
-  padding: 40px 125px;
+  padding: 30px 125px;
   margin: 0;
+  align-self: center;
 }
 
 .info {
